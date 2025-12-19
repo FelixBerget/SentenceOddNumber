@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             SentenceDivider sentencedivider = new SentenceDivider();
-            string[] sentenceString = sentencedivider.SplitSentence("Hey");
+            string[] sentenceString = sentencedivider.SplitSentence("Hey my name is Bobb");
 
             foreach (var strPart in sentenceString)
             {
